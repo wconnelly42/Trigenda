@@ -7,11 +7,27 @@ title{
         }
        
 
+select {
+   font-size: 32px;
+   color:#0A369D;
+   font-family: 'Montserrat Alternates', sans-serif;
+}
+input {
+   font-size: 32px;
+   border-image: 0;
+   border-radius: 5px;
+   font-family: 'Montserrat Alternates', sans-serif;
+}
+
 
 h1{
     font-family: 'Montserrat Alternates', sans-serif;
     color:#1481BA ;
     font-size: 300%;
+}
+background{
+    
+    background-repeat: no-repeat
 }
 
 form{
@@ -26,14 +42,103 @@ form{
 h2{
     color:#0A369D;
 }
+
 body{
+    
 
     font-family: 'Montserrat Alternates', sans-serif;
             background-color: white;
-            color:#0A369D;
+            color:#D6FFF6;
             font-size:200%;
-     }
-     
+            background-repeat: no-repeat;
+            background-size: 1500px 800px;
+            
+}
+
+
+
+
+
+/*light blue=#D6FFF6*/
+/*dark powder blue =0A369D*/
+/*new blue:2DC7FF*/
+
+/*#header{*/
+/*position: relative ;*/
+/*top: 25vh;*/
+/*}*/
+
+
+
+/*THIS WILL NOT WORK UNTIL WE REFERENCE THIS CODE IN INDEX.
+
+.search_categories{
+  font-size: 13px;
+  padding: 10px 8px 10px 14px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.search_categories .select select{
+  background: transparent;
+  line-height: 1;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  width: 120%;
+  position: relative;
+  z-index: 10;
+  font-size: 1em;
+}title{
+            text-align: center;
+            color: black;
+            font-family: 'Montserrat Alternates', sans-serif;
+             
+            font-size: 400%;
+        }
+       
+
+
+h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:#1481BA ;
+    font-size: 300%;
+}
+background{
+    
+    background-repeat: no-repeat
+}
+
+form{
+  
+    
+    
+    font-size:200%;
+    color:#92B4F4;
+}
+
+
+h2{
+    color:#0A369D;
+}
+
+body{
+    
+
+    font-family: 'Montserrat Alternates', sans-serif;
+            background-color: white;
+            color:#D6FFF6;
+            font-size:200%;
+            background-repeat: no-repeat;
+            background-size: 1500px 800px;
+            
+}
+/*light blue=#D6FFF6*/
+/*dark powder blue =0A369D*/
+/*new blue:2DC7FF*/
 
 /*#header{*/
 /*position: relative ;*/
@@ -65,3 +170,4 @@ body{
   z-index: 10;
   font-size: 1em;
 }
+
