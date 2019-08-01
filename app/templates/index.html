@@ -15,7 +15,7 @@
   padding: 10px;
   width: 150px;
   transition: all 0.5s;
-  cursor: pointer;
+  cursor:s pointer;
   margin: 5px;
 }
 
@@ -47,7 +47,7 @@
 
     </head>
     <body>
-        
+
 
         
         <link href="static/style.css" rel="stylesheet">
@@ -59,18 +59,22 @@
             </center>
         
         <center>
-            <h2>Select a location in the dropbar.</h2>
+            <h2>Select a location and genda in the dropbar.</h2>
             </center>
        
         <center><form method= "POST" action= '/results'>
             <select name="yourCity">
-  <option value="NewYorkCity">New York City</option>
-  <option value="HongKong">Hong Kong</option>
-  <option value="Madrid">Madrid</option>
-  <option value="Chicago">Chicago</option>
+              <option value="NewYorkCity">New York City</option>
+              <option value="HongKong">Hong Kong</option>
+              <option value="Madrid">Madrid</option>
+              <option value="Chicago">Chicago</option>
+            </select>
+            <select name="yourGenda">
+              <option value="Men">Men</option>
+              <option value="Women">Women</option>
+              <option value="Other">Other</option>
             </select>
             <button class="button" style="vertical-align:middle"><span>Submit</span></button>
         </form></center>
     </body>
 </html>
-

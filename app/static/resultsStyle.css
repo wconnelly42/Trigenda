@@ -1,0 +1,17 @@
+h1{
+    font-family: 'Gothic A1', sans-serif;
+    color:#0A369D ;
+    font-size: 200%;
+}
+
+background{
+    
+    background-repeat: no-repeat
+}
+html { 
+  background: url(https://i.imgur.com/qbeGHWE.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
