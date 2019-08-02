@@ -1,17 +1,36 @@
 h1{
-    font-family: 'Gothic A1', sans-serif;
-    color:#0A369D ;
-    font-size: 200%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:#1481BA ;
+    font-size: 100%;
+    text-decoration: none;
 }
-
+h2{
+    color:#0A369D;
+    font-family: 'Tajawal', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:#1481BA;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size:75%;
+}
+body{
+    font-family: 'Tajawal', sans-serif;
+    background-color: white;
+    color:#D6FFF6;
+    font-size:200%;
+    background-repeat: no-repeat;
+    background-size: 1500px 800px;
+}
 background{
-    
     background-repeat: no-repeat
 }
-html { 
-  background: url(https://i.imgur.com/qbeGHWE.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+.resultdiv{
+    position: relative ;
+    width: 60vw;
+    height: auto;
+     background-color: #FCFFEB;
+      opacity: 0.7;
+      filter: alpha(opacity=70); 
 }

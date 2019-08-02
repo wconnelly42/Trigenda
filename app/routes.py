@@ -19,4 +19,4 @@ def results():
         city = userdata['yourCity']
         genda = userdata['yourGenda']
         pack = model.whatToPack(city, genda)
-        return render_template("results.html", a = pack["desc"], )  
+        return render_template("results.html", a = pack["desc"],img = pack["img"] )  
